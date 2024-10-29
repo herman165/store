@@ -1,0 +1,366 @@
+<!-- @format -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/bootstrap-5.0.0-dist/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/dist/css/lightbox.css" />
+    <title>Promo-page</title>
+
+    <!-- Menambahkan jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <!--navbar start-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark main-background sticky-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <a class="navbar-brand me-auto" href="#">Toko-Saya</a>
+          <ul class="navbar-nav">
+            <li class="nav-item me-5">
+              <a class="nav-link" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="/produk/index.html">Produk</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link active" href="#">Promo</a>
+            </li>
+            <li class="nav-item me-5">
+              <a
+                class="nav-link"
+                href="/card/index.html"
+                tabindex="-1"
+                aria-disabled="true"
+                ><i class="bi bi-cart"></i>Keranjang</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--navbar end-->
+
+    <!--benner start-->
+    <div
+      class="container-fluid produk-banner d-flex align-items-center justify-content-center">
+      <div class="container text-center">
+        <h1 class="text-light mb-3">Semua Promo Buat Anda</h1>
+      </div>
+    </div>
+    <!--benner end-->
+
+    <!--promo start-->
+    <div class="container-fluid py-5">
+      <!--kategori promo start-->
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-sm-5 col-mb-3 col-lg-2 mb-3">
+            <button
+              id="semuaPromoBtn"
+              class="btn btn-outline-warning w-100 fs-5 active">
+              Semua Promo
+            </button>
+          </div>
+          <div class="col-sm-5 col-mb-3 col-lg-2 mb-3">
+            <button
+              id="promoDiskonBtn"
+              class="btn btn-outline-warning w-100 fs-5">
+              Promo Diskon
+            </button>
+          </div>
+          <div class="col-sm-5 col-mb-3 col-lg-2 mb-3">
+            <button
+              id="promoBonusBtn"
+              class="btn btn-outline-warning w-100 fs-5">
+              Promo Bonus
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--kategori promo end-->
+
+      <!--isi promo start-->
+      <!--semua promo start-->
+      <div id="semuaPromo">
+        <div class="row justify-content-center">
+          <div class="col-sm-6 col-lg-3 card-promo mb-3">
+            <div class="card">
+              <img
+                src="/image/product/thumb/chocolate-mousse.jpg"
+                class="card-img-top"
+                alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Beli 2 Dapat Diskon 15%</h5>
+                <p class="card-text">
+                  Nikmati Chocolate Mousse yang lezat dengan kombinasi krim dan
+                  cokelat yang menggoda
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 card-promo mb-3">
+            <div class="card">
+              <img
+                src="/image/product/thumb/coffee.jpg"
+                class="card-img-top"
+                alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Beli 2 Dapat Diskon 15%</h5>
+                <p class="card-text">
+                  Rasakan kehangatan secangkir kopi segar yang sempurna untuk
+                  memulai harimu
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 card-promo mb-3">
+            <div class="card">
+              <img
+                src="/image/product/thumb/brownies.jpg"
+                class="card-img-top"
+                alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Beli 2 Dapat Diskon 15%</h5>
+                <p class="card-text">
+                  Brownies lezat dengan tekstur fudgy yang sempurna, cocok untuk
+                  pencinta cokelat
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 card-promo mb-3">
+            <div class="card">
+              <img
+                src="/image/product/thumb/chocolate-mousse.jpg"
+                class="card-img-top"
+                alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Beli 2 Dapat Diskon 15%</h5>
+                <p class="card-text">
+                  Nikmati Chocolate Mousse yang lezat dengan kombinasi krim dan
+                  cokelat yang menggoda
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 card-promo mb-3">
+            <div class="card">
+              <img
+                src="/image/product/thumb/strawberry-pancake.jpg"
+                class="card-img-top"
+                alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Beli 2 Dapat Diskon 15%</h5>
+                <p class="card-text">
+                  Nikmati Pancake Strawberry dengan topping buah segar dan sirup
+                  yang manis, cocok untuk sarapan atau camilan
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 card-promo mb-3">
+            <div class="card">
+              <img
+                src="/image/product/thumb/raspberry-cake.jpg"
+                class="card-img-top"
+                alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Beli 2 Dapat Diskon 15%</h5>
+                <p class="card-text">
+                  Nikmati Raspberry Cake yang segar dan manis dengan lapisan
+                  buah raspberry di atasnya, cocok untuk pencinta kue buah.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Tambahkan promo lainnya di sini... -->
+        </div>
+      </div>
+      <!--semua promo end-->
+
+      <!--promoDiskon start-->
+      <div id="promoDiskon" style="display: none">
+        <div class="row justify-content-center">
+          <div class="col-sm-6 col-lg-3 card-promo mb-3">
+            <div class="card">
+              <img
+                src="/image/product/thumb/grilled-meat.jpg"
+                class="card-img-top"
+                alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Beli 2 Dapat Diskon 15%</h5>
+                <p class="card-text">
+                  Rasakan kelezatan daging panggang dengan bumbu yang khas dan
+                  aroma yang menggugah selera
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 card-promo mb-3">
+            <div class="card">
+              <img
+                src="/image/product/thumb/white-saucer-cake.jpg"
+                class="card-img-top"
+                alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Beli 2 Dapat Diskon 15%</h5>
+                <p class="card-text">
+                  Nikmati kelembutan White Saucer Cake dengan tekstur lembut dan
+                  rasa yang ringan, sempurna untuk menemani teh atau kopi sore
+                  Anda
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Tambahkan promo diskon lainnya di sini... -->
+        </div>
+      </div>
+      <!--promoDiskon end-->
+
+      <!--promoBonus start-->
+      <div id="promoBonus" style="display: none">
+        <div class="row justify-content-center">
+          <div class="col-sm-6 col-lg-3 card-promo mb-3">
+            <div class="card">
+              <img
+                src="/image/product/thumb/raspberry-cake.jpg"
+                class="card-img-top"
+                alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Beli 2 Gratis 1 Raspberry Cake</h5>
+                <p class="card-text">
+                  Nikmati kelembutan Raspberry Cake dengan rasa manis yang pas
+                  dan sentuhan buah raspberry segar.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 card-promo mb-3">
+            <div class="card">
+              <img
+                src="/image/product/thumb/mix-vegetable-sald.jpg"
+                class="card-img-top"
+                alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Beli 1 Gratis 1 Mix Vegetable Salad</h5>
+                <p class="card-text">
+                  Segarkan harimu dengan Mix Vegetable Salad, penuh dengan
+                  sayuran segar dan saus yang lezat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Tambahkan promo bonus lainnya di sini... -->
+        </div>
+      </div>
+      <!--promoBonus end-->
+    </div>
+    <!--promo end-->
+
+    <!--sosial start-->
+    <div class="container-fluid py-5 subscribe-content text-light">
+      <div class="container">
+        <h5 class="text-center mb-3">Temui Kami</h5>
+        <div class="row justify-content-center">
+          <div class="col-sm-1 d-flex justify-content-center mb-2 bounce-icon">
+            <i class="bi bi-instagram fs-4"></i>
+          </div>
+          <div class="col-sm-1 d-flex justify-content-center mb-2 bounce-icon">
+            <i class="bi bi-facebook fs-4"></i>
+          </div>
+          <div class="col-sm-1 d-flex justify-content-center mb-2 bounce-icon">
+            <i class="bi bi-twitter-x fs-4"></i>
+          </div>
+          <div class="col-sm-1 d-flex justify-content-center mb-2 bounce-icon">
+            <i class="bi bi-youtube fs-4"></i>
+          </div>
+        </div>
+        <h5 class="text-center mt-5 mb-0">Subscribe</h5>
+        <p class="text-center font-monospace">Untuk Informasi Tentang Promo</p>
+        <div class="col-lg-6 offset-md-3">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Ketikan Email"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2" />
+            <button
+              class="btn btn-outline-warning text-light"
+              type="button"
+              id="button-addon2">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--sosial end-->
+
+    <!--footer start-->
+    <div class="container-fluid py-3 bg-dark text-light">
+      <div class="container d-flex justify-content-between">
+        <label>&copy;2024 Kafe Saya</label>
+        <label>Created By Herman</label>
+      </div>
+    </div>
+
+    <script src="/bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        var btnSemuaPromo = $("#semuaPromoBtn");
+        var btnDiskonPromo = $("#promoDiskonBtn");
+        var btnBonusPromo = $("#promoBonusBtn");
+
+        var semuaPromoView = $("#semuaPromo");
+        var diskonPromoView = $("#promoDiskon");
+        var bonusPromoView = $("#promoBonus");
+
+        // Menyembunyikan semua promo awalnya
+        diskonPromoView.hide();
+        bonusPromoView.hide();
+
+        // Fungsi untuk menampilkan semua promo
+        btnSemuaPromo.click(function () {
+          semuaPromoView.fadeToggle(300).toggleClass("rotate"); // Animasi fade dan rotasi
+          diskonPromoView.fadeOut(300).removeClass("rotate"); // Animasi fade keluar dan menghapus rotasi
+          bonusPromoView.fadeOut(300).removeClass("rotate"); // Animasi fade keluar dan menghapus rotasi
+        });
+
+        // Fungsi untuk menampilkan promo diskon
+        btnDiskonPromo.click(function () {
+          semuaPromoView.fadeOut(300).removeClass("rotate"); // Animasi fade keluar dan menghapus rotasi
+          diskonPromoView.fadeToggle(300).toggleClass("rotate"); // Animasi fade dan rotasi
+          bonusPromoView.fadeOut(300).removeClass("rotate"); // Animasi fade keluar dan menghapus rotasi
+        });
+
+        // Fungsi untuk menampilkan promo bonus
+        btnBonusPromo.click(function () {
+          semuaPromoView.fadeOut(300).removeClass("rotate"); // Animasi fade keluar dan menghapus rotasi
+          diskonPromoView.fadeOut(300).removeClass("rotate"); // Animasi fade keluar dan menghapus rotasi
+          bonusPromoView.fadeToggle(300).toggleClass("rotate"); // Animasi fade dan rotasi
+        });
+      });
+    </script>
+  </body>
+</html>

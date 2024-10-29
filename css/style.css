@@ -1,0 +1,130 @@
+body {
+    font-family: cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Warna Utama */
+.main-background {
+    background-color: purple !important;
+}
+
+.main-color {
+    color: rgb(114, 2, 114);
+}
+
+/* Banner */
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Promo */
+.card-promo {
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.card-promo:hover {
+    transform: scale(1.1);
+}
+
+/* Pelayanan */
+.pelayanan {
+    background-color: #700970;
+    width: 90px;
+    height: 90px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pelayanan-content {
+    transition: 0.3s;
+}
+
+.pelayanan-content:hover {
+    transform: scale(1.1);
+}
+
+.pelayanan .icon-circle {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+/* Menu Favorit */
+.menu-favorit {
+    background-color: rgba(243, 243, 243);
+}
+
+.menu-favorit-content {
+    transition: 0.3s;
+}
+
+.menu-favorit-content:hover {
+    transform: scale(1.1);
+}
+
+/* Testimoni */
+.testimony-content {
+    transition: 0.3s;
+}
+
+.testimony-content:hover {
+    transform: scale(1.1);
+}
+
+/* Subscribe */
+.subscribe-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+/* Produk Banner */
+.produk-banner {
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Produk Section */
+.produk-section {
+    background-color: #f3f3f3;
+    padding: 40px 0;
+}
+
+
+/* Ikon Animasi Wave (Ular) */
+.bounce-icon {
+    font-size: 50px;
+    color: #fff;
+    animation: wave 2s infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    40% {
+        transform: translateX(10px) translateY(-10px);
+    }
+    50% {
+        transform: translateX(-10px) translateY(10px);
+    }
+    60% {
+        transform: translateX(10px) translateY(10px);
+    }
+    80% {
+        transform: translateX(-10px) translateY(-10px);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+}
